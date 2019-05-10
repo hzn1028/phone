@@ -1,0 +1,332 @@
+/* 第一屏的动画样式 */
+
+
+.screen-1__heading,
+.screen-1__phone,
+.screen-1__shadow{
+    transition: all 1s;
+}
+
+/* 初始样式 */
+.screen-1__heading_animate_init{
+    transform: translate(0,100%);/*从下往上*/
+    opacity: 0;
+}
+.screen-1__phone_animate_init{
+    transform: translate(0,-100%);/*从上往下*/
+    opacity: 0;
+}
+.screen-1__shadow_animate_init{
+    transform: translate(0,100%);/*从下往上*/
+    opacity: 0;
+}
+
+/* 动画执行完后的样式 */
+.screen-1__heading_animate_done,
+.screen-1__phone_animate_done,
+.screen-1__shadow_animate_done{
+    transform: translate(0,0);
+    opacity: 1;
+}
+
+/* 第一屏的动画样式结束 */
+
+
+
+
+
+/* 第二屏的动画样式 */
+
+.screen-2__heading,
+.screen-2__subheading,
+.screen-2__phone{
+    transition: all 1s;
+}
+
+.screen-2__point{
+    transition: all 1s 1s;
+}
+
+
+/* 初始样式 */
+.screen-2__heading_animate_init{
+    transform: translate(0,-100%);/*从上往下*/
+    opacity: 0;
+}
+.screen-2__subheading_animate_init{
+    transform: translate(0,100%);/*从下往上*/
+    opacity: 0;
+}
+.screen-2__phone_animate_init{
+    transform: translate(0,50%);/*从下往上*/
+    opacity: 0;
+}
+
+.screen-2__point_i_1_animate_init{
+    transform: translate(-100%,0);/*从左往右*/
+    opacity: 0;
+}
+.screen-2__point_i_2_animate_init,
+.screen-2__point_i_3_animate_init{
+    transform: translate(100%,0);/*从右往左*/
+    opacity: 0;
+}
+
+
+
+/* 动画执行完后的样式 */
+.screen-2__heading_animate_done,
+.screen-2__subheading_animate_done,
+.screen-2__phone_animate_done,
+.screen-2__point_animate_done{
+    transform: translate(0,0);
+    opacity: 1;
+}
+
+
+/* 第二屏的动画样式结束 */
+
+
+
+
+
+
+/* 第三屏的动画样式 */
+
+.screen-3__heading,
+.screen-3__subheading,
+.screen-3__phone,
+.screen-3__features{
+    transition: all 1s;
+}
+
+/*鼠标移上去时的特效*/
+.screen-3__features__item{
+    transition: all 0.5s;
+    cursor: pointer;
+}
+.screen-3__features__item:hover{
+    transform: scale(1.1);
+    border-color: #ffffff;
+}
+
+/* 初始样式 */
+.screen-3__heading_animate_init{
+    transform: translate(0,-100%);/*从上往下*/
+    opacity: 0;
+}
+.screen-3__subheading_animate_init{
+    transform: translate(0,100%);/*从下往上*/
+    opacity: 0;
+}
+.screen-3__phone_animate_init{
+    transform: translate(0,50%);/*从下往上*/
+    opacity: 0;
+}
+
+
+.screen-3__features_animate_init{
+    transform: scale(0.5);/*缩放为0.5*/
+    opacity: 0;
+}
+
+
+/* 动画执行完后的样式 */
+.screen-3__heading_animate_done,
+.screen-3__subheading_animate_done,
+.screen-3__phone_animate_done{
+    transform: translate(0,0);
+    opacity: 1;
+}
+.screen-3__features_animate_done{
+    transform: scale(1);/*缩放为1*/
+    opacity: 1;
+}
+
+
+/* 第三屏的动画样式结束 */
+
+
+
+
+
+/* 第四屏的动画样式 */
+
+.screen-4__heading,
+.screen-4__subheading{
+    transition: all 1s;
+}
+.screen-4__type__item_i_1{
+    transition: all 1s 0.5s;
+}
+.screen-4__type__item_i_2{
+    transition: all 1s 1s;
+}
+.screen-4__type__item_i_3{
+    transition: all 1s 1.5s;
+}
+.screen-4__type__item_i_4{
+    transition: all 1s 2s;
+}
+
+/* 初始样式 */
+.screen-4__heading_animate_init{
+    transform: translate(0,-100%);/*从上往下*/
+    opacity: 0;
+}
+.screen-4__subheading_animate_init{
+    transform: translate(0,100%);/*从下往上*/
+    opacity: 0;
+}
+.screen-4__type__item_i_1_animate_init,
+.screen-4__type__item_i_2_animate_init,
+.screen-4__type__item_i_3_animate_init,
+.screen-4__type__item_i_4_animate_init{
+    opacity: 0;
+}
+
+
+/* 动画执行完后的样式 */
+.screen-4__heading_animate_done,
+.screen-4__subheading_animate_done{
+    transform: translate(0,0);
+    opacity: 1;
+}
+.screen-4__type__item_i_1_animate_done,
+.screen-4__type__item_i_2_animate_done,
+.screen-4__type__item_i_3_animate_done,
+.screen-4__type__item_i_4_animate_done{
+    opacity: 1;
+}
+
+
+/* 第四屏的动画样式结束 */
+
+
+
+
+
+
+
+/* 第五屏的动画样式 */
+
+.screen-5__heading,
+.screen-5__subheading,
+.screen-5__bg{
+    transition: all 1s;
+}
+
+
+/* 初始样式 */
+.screen-5__heading_animate_init{
+    transform: translate(0,-100%);/*从上往下*/
+    opacity: 0;
+}
+
+.screen-5__subheading_animate_init,
+.screen-5__bg_animate_init{
+    transform: translate(0,100%);/*从下往上*/
+    opacity: 0;
+}
+
+
+/* 动画执行完后的样式 */
+.screen-5__heading_animate_done,
+.screen-5__subheading_animate_done,
+.screen-5__bg_animate_done{
+    transform: translate(0,0);
+    opacity: 1;
+}
+
+/* 第五屏的动画样式结束*/
+
+
+
+
+
+
+/* 定义帧动画 */
+@keyframes bounce {
+
+    0%,
+    100% {
+        transform: scale(0);
+    }
+
+    50% {
+        transform: scale(1);
+    }
+}
+
+/* 使用帧动画 */
+.screen-2__point:before,
+.screen-2__point:after {
+    content: " ";
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    left: 0px;
+    top: 1px;
+    border-radius: 50%;
+    animation: bounce 2s infinite;
+    background: rgba(255, 0, 0, .5);
+}
+.screen-2__point:before {
+    animation: bounce 2s infinite 1s;
+}
+.screen-2__point_i_1:before,
+.screen-2__point_i_1:after {
+    left: 200px;
+}
+
+/* 帧动画结束 */
+
+
+
+
+/* 导航条 _status_black 样式 */
+.header {
+    transition: all 1s;
+}
+
+.header_status_black {
+    position: fixed;
+    z-index: 3;
+    left: 0;
+    right: 0;
+    top: 0;
+    background-color: rgba(0, 0, 0, .5);
+}
+
+.header_status_black .header__logo,
+.header_status_black .header__nav-item {
+    color: #fff;
+}
+
+.header_status_black .header__nav-item_status_active {
+    color: red;
+}
+/* 导航条 status black 样式结束 */
+
+
+
+
+
+
+/* 大纲(右边导航条） _status_in 样式 */
+.outline {
+    opacity: 0;
+    transform: translate(100%, 0);
+    transition: all 1s;
+}
+
+.outline_status_in {
+    opacity: 1;
+    transform: translate(0, 0);
+}
+
+.outline__item_status_active {
+    color: #f01414;
+}
+
+/* 大纲(右边导航条） _status_in 样式结束 */
